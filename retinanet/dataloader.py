@@ -55,7 +55,7 @@ class CocoDataset(Dataset):
         # also load the reverse (label -> name)
         self.labels = {}
         for key, value in self.classes.items():
-            self.labels[value] = key
+            self.labels[                  value] = key
 
     def __len__(self):
         return len(self.image_ids)
