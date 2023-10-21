@@ -17,16 +17,7 @@ Currently, this repo achieves 33.5% mAP at 600px resolution with a Resnet-50 bac
 2) Install the required packages:
 
 ```
-apt-get install tk-dev python-tk
-```
-
-3) Install the python packages:
-	
-```
-pip install pandas
-pip install pycocotools
-pip install opencv-python
-pip install requests
+pip install -r requirements.txt
 
 ```
 
